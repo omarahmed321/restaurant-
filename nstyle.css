@@ -10,22 +10,6 @@
   box-sizing: border-box;
   font-family: "test";
 }
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-  justify-content: space-between;
-}
-
-#logoimg {
-  width: 137px;
-  padding-bottom: 4px;
-  margin-right: 221px;
-}
 nav {
   background-color: black;
   width: 100%;
@@ -37,25 +21,38 @@ nav {
   padding-bottom: 8px;
   padding-right: 16px;
   padding-left: 16px;
-}
 
+
+
+  /* container */
+  /* ----------------------------------------------------------- */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+/* لوجو صوره */
+/* ----------------------------------------------------------- */
+#logoimg {
+  width: 137px;
+  padding-bottom: 4px;
+  margin-right: 221px;
+}
+  
+  /* ----------------------------------------------------------- */
 .fst-ul {
   gap: 28px;
   display: flex;
-}
-/* ul
-li
-li
-li
-
-
-
-*/
-
+  
+  /* ----------------------------------------------------------- */
 .choices {
   list-style: none;
-}
-
+  
+ 
 .c {
   font-family: "test";
  color: rgba(255, 255, 255, .7);
@@ -64,11 +61,10 @@ li
   flex-direction: row;
   display: flex;
   gap: 28px;
-}
 
-
-.c:hover {
+&:hover {
   color: #ffffffcc;
+}
 }
 .snd-ul {
   background-color: black;
@@ -77,12 +73,9 @@ li
   z-index: 9999;
   display: none;
     padding: .3rem 1.5rem;
-
-}
-.choices:hover .snd-ul {
+    .choices:hover & {
   display: block;
 }
-
 .inner-links {
   text-decoration: none;
   color: #5e6e82;
@@ -91,15 +84,15 @@ li
       
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  
-
-}
-.inner-links:hover {
+  &:hover {
   transition: 500ms;
   color: white;
 
 }
-
+}
+}
+}
+}
 .mkreser {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -115,8 +108,10 @@ li
   font-size: 1rem;
   line-height: 1.5;
   margin-left: 221px;
-}
-.mkreser:hover {
+  &:hover {
   background-color: #ffc554;
   color: #5e6e82;
+}
+}
+}
 }
