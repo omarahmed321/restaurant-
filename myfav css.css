@@ -3,7 +3,6 @@
   src: url("./fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf")
     format("truetype");
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -136,8 +135,6 @@ main{
 height:100vh;
 
 }
-
-
 #vector{
 position:absolute;
 z-index:-1;
@@ -159,31 +156,148 @@ z-index:5;
 
 
 }
-
-
 .innercontainer{
 width:65%;
 margin-left: 13%;
-  h1{
-    /* font-family: 'test'; */
-    font-size:300;
-       line-height: 1.2;
-    color: #000;
-display: flex;
-width:602.984px;
-font-size: 2.44141rem;
 
+
+.h1firstpage{
+margin-bottom: 0.5rem;
+  #h1f1{
+    
+  font-weight:400;
+  line-height:1.2;
+  font-family:none;
+  font-size: 2.44141rem;
+  color: #000;
+  text-align:left;
+  display:inline-block;
+  width:40%;
+ 
+  span{
+   
+   font-family:"Merriweather";
+    font-weight:700;
+ font-size: 2.44141rem;
+  color: #000;
   }
-  p{
-   color: rgb(94, 110, 130);
- font-family: 'test';
   }
+
+}
+.pfirstpage{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5e6e82;
+        margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    width:55%;
+}
   .buttons{
     #leftbutton{
+margin-right: 16px;
+margin-top: 16px;
+border-radius: .25rem;
+padding: .4125rem 3.25rem;
+color: #4d5969;
+background-color: #ffc554;
 
+border:1px solid #ffc554;
+    display: inline-block;
+    font-weight: 700;
+   font-size:1rem;
+    text-align: center;
+    vertical-align: middle;
+    &:hover{
+color: #4d5969;
+    background-color: #ffb82e;
+    border-color: #ffb421;
+    }
     }
     #rightbutton{
+margin-right: 16px;
+margin-top: 16px;
+padding: .4125rem 3.25rem;
+border-radius: .25rem;
+    color: #ffc554;
+background-color: transparent;
+border:2px solid #ffc554;
+    display: inline-block;
+    font-weight: 700;
+   
+    text-align: center;
+    vertical-align: middle;
+font-size: 1rem;;
+    &:hover{
+    color: #4d5969;
+    background-color: #ffc554;
+    border-color: #ffc554;
+    }
+
 
     }
   }
 }
+
+
+
+
+#menu{
+padding-top: 120px;
+padding-bottom: 120px;
+.containermen{
+  margin-right: 212px;
+  margin-left: 212px;
+.top{
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 64px;
+#men{
+color: #232e3c;
+font-size: 1.5625rem;
+font-weight: 700;
+margin-bottom: .25rem;
+text-align: center;
+line-height: 1.5;
+width: 100%;
+}
+
+.taste{
+font-size: 2.44141rem;
+font-weight: 700;
+margin-bottom: .5rem;
+    font-family: "Merriweather";
+    
+    line-height: 1.2;
+    color: #000;
+        text-align: center
+
+
+
+
+
+}
+
+}
+
+#pictures{
+  width: 1480px;
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  
+.mid{
+    margin-right: 10px;
+    font-family: "Merriweather";
+    height: 444.672px;
+    border-radius: .30rem;
+    
+}
+}
+}
+}
+
+
