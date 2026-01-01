@@ -288,14 +288,65 @@ margin-bottom: .5rem;
   display: flex;
   flex-direction:row;
   align-items:center;
-  
+  .details{
+      position:relative;
 .mid{
     margin-right: 10px;
-    font-family: "Merriweather";
+    
     height: 444.672px;
     border-radius: .30rem;
-    
+    position:relative;
+   
 }
+.detailscontainer{
+position:absolute;
+z-index:2;
+
+
+
+          .details:hover & .overlay {
+        display: block;
+         background-color: rgba(0, 0, 0, 0.5);
+        transition:500ms;
+      }
+ 
+
+    .overlay{
+position:absolute;
+inset:0;
+display:none;
+z-index:3;
+.details:hover &{
+  display:block;
+transition:500ms;
+
+}
+.maintitle{
+    font-size: 1.5625rem;
+    font-weight:700;
+        line-height: 30px;
+        font-family:'test';
+        color:white;
+        
+
+
+}
+p{
+  color:white
+}
+    }
+
+
+}
+
+
+
+
+
+    
+
+  }
+
 }
 }
 }
